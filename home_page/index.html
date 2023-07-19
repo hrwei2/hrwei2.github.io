@@ -5,62 +5,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About_me</title>
         <link rel="stylesheet" href="styles.css">
+
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        <script> 
+            $(function(){
+            $("#header").load("header.html"); 
+            $("#footer").load("footer.html"); 
+            });
+        </script> 
     </head>
     <body>
-        <header>
-        <div class="container main-menu">
-            <div class="row align-items-center justify-content-between d-flex">
-                <div id="logo">
-                    <a href="index.html"><img alt="" class="logoimage hover-this" src="images/logo.png" title=""></a>
-                </div>
-                <nav id="nav-menu-container">
-                    <ul class="nav-menu">
-                        <li>
-                            <a class="hover-this" href="/about_me"><span style="">About Me</span></a>
-                        </li>
-                        <li>
-                            <a class="hover-this" href="/projects"><span style="">Projects</span></a>
-                        </li>
-                        <li>
-                            <a class="hover-this" href="/hobbies"><span style="">Hobbies</span></a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        </header>
-
-
-
-        <footer class="footer py-4">
-            <div class="container">
-                <div class="row align-items-center">
-
-                    <div class="col-lg-4 text-lg-left">Copyright © 2023 Hao Ran Wei</div>
-                    
-                    <div class="col-md-4">
-                        <span class="fs-3"> 
-                            <a class="text-decoration-none" href="mailto:haoran2011@hotmail.com">
-                                <i class="bi-envelope-fill" role="img" aria-label="Email"></i>
-                            </a> 
-                            
-                            <a class="text-decoration-none" href="https://github.com/hrwei2">
-                                <i class="bi-github" role="img" aria-label="GitHub"></i>
-                            </a> 
-                            
-                            <a class="text-decoration-none" href="https://www.linkedin.com/in/hao-ran-wei/">
-                                <i class="bi-linkedin" role="img" aria-label="LinkedIn"></i>
-                            </a> 
-                        </span>
-                
-                    </div>
-
-                    <div class="col-lg-4 text-lg-right">
-                        Created By: Hao Ran Wei
-                    </div>
-                    
-                </div>
-            </div>
-        </footer>
+        <div id="header"></div>
+        <!--Remaining section-->
+        <div id="footer"></div>    
     </body>
 </html>
