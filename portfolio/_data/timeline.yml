@@ -1,0 +1,27 @@
+# example:
+# - date: "2023 - Present"
+#   items:
+#     - type: "job"
+#       title: "Job 1"
+#       description: "Job description and details for Job 1."
+
+#     - type: "event"
+#       title: "Event 1"
+#       description: "Event description and details for Event 1."
+
+# - date: "2022 - 2023"
+#   items:
+#     - type: "job"
+#       title: "Job 2"
+#       description: "Job description and details for Job 2."
+#--------------------------------------------------------------
+- date: "2022"
+  items:
+    - type: "job"
+      title: "Software Developer"
+      description: "Developed software at Webb Electronics"
+- date: "2018 - 2023"
+  items:
+    - type: "Event"
+      title: "Bachelor's Degree in Computer Science"
+      description: "Completed in June at Simon Fraser University"
