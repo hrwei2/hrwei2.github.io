@@ -8,12 +8,15 @@
             <h2>{{ post.title }}</h2>
             <h3>Date: {{ post.date | date: "%B %d, %Y" }}</h3>
             <br>
+            
             {%- if post.image -%}
-                <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image image-and-paragraph-img">
+            <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image image-and-paragraph-img">
             {%- else -%}
                 {%- assign postImage = "/assets/images/image-default.jpg" -%}
                 <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image image-and-paragraph-img">
             {%- endif -%}
+
+
             <div class = "image-and-paragraph-text">
                 <p>
                     {{ post.content }}
