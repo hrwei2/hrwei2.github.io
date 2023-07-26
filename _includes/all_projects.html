@@ -1,23 +1,35 @@
 <h1>Projects</h1>
 {% for post in site.posts %}
-    <h2>{{ post.title }}</h2>
-    <div>
-        {{ post.content }}
+<div class="card image-and-paragraph-card">
+    <div class="card-body">
+        <h2>{{ post.title }}</h2>
+        <h3>Date: {{ post.date | date: "%B %d, %Y" }}</h3>
+        <br>
+        {%- if post.image -%}
+            <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image image-and-paragraph-img">
+        {%- else -%}
+            {%- assign postImage = "/assets/images/image-default.jpg" -%}
+            <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image image-and-paragraph-img">
+        {%- endif -%}
+        <div class = "image-and-paragraph-text">
+            <p>
+                {{ post.content }}
+                <br>
+                {% if post.urls %}
+                    <ul>
+                    {% for url in post.urls %}
+                        <li><a href="{{ url.url }}">{{ url.name }}</a></li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
+            </p>
+        </div>
+            
     </div>
-    {% if post.urls %}
-        <ul>
-        {% for url in post.urls %}
-            <li><a href="{{ url.url }}">{{ url.name }}</a></li>
-        {% endfor %}
-        </ul>
-    {% endif %}
-
-    {%- if post.image -%}
-        <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">
-    {%- else -%}
-        {%- assign postImage = "/assets/images/image-default.jpg" -%}
-        <img src="{{- postImage | relative_url -}}" alt="" class="blog-roll-image">
-    {%- endif -%}
+</div>
+<div>
+    
+</div>
 {% endfor %}
 </br>
 </br>

@@ -1,5 +1,5 @@
 ---
-layout: mainpage
+layout: about
 title: about
 ---
 # About page

@@ -52,3 +52,70 @@
     border: 1px solid #2196F3;
     background-color: #E3F2FD;
 }
+/* ------------------------------------------------------------ */
+.centered-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.image-and-paragraph-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.image-and-paragraph-img {
+    
+    height: 100%;
+    object-fit: cover;
+    
+    margin-right: 20px;
+}
+
+.image-and-paragraph-text {
+    
+    height: 100%;
+}
+
+@media (max-width: 976px) {
+    /* Apply styles for screens smaller than 576px (phones) */
+    .image-and-paragraph-card {
+        display: block;
+    }
+
+    .image-and-paragraph-img {
+        width: 100%;
+        margin: 0 auto 10px; /* Center the image and add bottom margin */
+        float: none; /* Remove the float for the image */
+    }
+
+    .image-and-paragraph-text {
+        width: 100%;
+        height: auto; /* Let the paragraph container adjust its height based on content */
+    }
+}
+
+@media (min-width: 976px) {
+    /* Apply styles for screens larger than 576px (not phones) */
+    .image-and-paragraph-card {
+        
+        display: flex; /* Restore the flex display for larger screens */
+    }
+
+    .image-and-paragraph-img {
+        width: 25%;
+        float: right; /* Float the image to the left */
+    }
+}
+/* -------------------------------------------------------------- */
+body{
+    padding-top: 80px;
+}
+p{
+    font-size: 20px;
+}
+ul{
+    font-size: 20px;
+}

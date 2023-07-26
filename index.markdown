@@ -7,9 +7,9 @@ title: home
 ---
 <html>
 <head>
-    <title>Button Page</title>
+    <title>Home page</title>
 </head>
 <body>
-teaeraesr
+
 </body>
 </html>
