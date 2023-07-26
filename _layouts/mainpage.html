@@ -16,9 +16,17 @@
   </head>
   <body>
     {% include navigation.html %}
+    <div>{% include quote_photo.html %}
+
+      <div class="centered-button">
+        <a href="/about.html" class="btn btn-block btn-info">Learn More About Me</a>
+    </div>
+    </br>
+    </div>
+
     <div>{{ content }}</div>
     {% include recent_projects.html %}
-    {% include timeline.html %}
+    <div style="background-color: white;padding-top: 10px; padding-bottom: 10px;">{% include timeline.html %}</div>
     <div>{% include footer.html %}</div>
   </body>
 </html>

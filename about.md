@@ -2,6 +2,7 @@
 layout: about
 title: about
 ---
-# About page
+# Who am I?
 
-This page tells you a little bit about me.
+
+
