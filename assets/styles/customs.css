@@ -1,3 +1,13 @@
+body{
+    padding-top: 80px;
+}
+p{
+    font-size: 20px;
+}
+ul{
+    font-size: 20px;
+}
+/* -------------------------------- */
 .timeline_div {
     display: flex;
     justify-content: center;
@@ -110,12 +120,4 @@
     }
 }
 /* -------------------------------------------------------------- */
-body{
-    padding-top: 80px;
-}
-p{
-    font-size: 20px;
-}
-ul{
-    font-size: 20px;
-}
+
