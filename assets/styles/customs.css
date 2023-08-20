@@ -204,3 +204,10 @@ ul{
     margin-left: auto;
     margin-right: auto;
 }
+.custom-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100%;
+}
