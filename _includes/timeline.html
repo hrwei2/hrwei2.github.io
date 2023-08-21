@@ -11,6 +11,10 @@
                     </span>
                 </div>
                 <p>{{ entry.items[0].description }}</p>
+                {%- if entry.items[0].skills -%}
+                    <h3>Skills:</h3>
+                {%- endif -%}
+                
                 <ul >
                     {% for skill in entry.items[0].skills %}
                         <li>{{ skill }}</li>

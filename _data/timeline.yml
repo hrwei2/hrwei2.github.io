@@ -47,12 +47,44 @@
 #       title: "Event Title"
 #       description: "This is the content of the last section"
 #--------------------------------------------------------------
+- title: "Software Developer / Trainer at Code Ninjas"
+  date: "2023 - present"
+  items:
+    - type: "job"
+      title: "Software Developer / Trainer"
+      description: "Teaching coding to kids through engaging lessons, helping them grasp programming languages and problem-solving concepts. While mentor students, guide them through coding projects, and maintain a positive learning environment. Monitor progress, communicate with parents, and stay updated on coding trends to provide effective instruction."
+      skills:
+        - "Scratch"
+        - "JavaScript"
+        - "Python"
+        - "Pactience"
+        - "Communication"
+        - "Adaptability"
+        - "Creativity"
+        - "Problem-Solving"
+        - "Collaboration"
+        - "Time Management"
+
+
 - title: "Software Developer at Webb Electronics"
   date: "2022"
   items:
     - type: "job"
       title: "Software Developer"
       description: "Developed software at Webb Electronics"
+      skills:
+        - "HTML"
+        - "CSS"
+        - "JavaScript"
+        - "jQuery"
+        - "Wordpress"
+        - "C++"
+        - "Bash"
+        - "Arduino"
+        - "Sqlite"
+        - "Flask"
+        - "Alembic"
+        - "Teamviewer"
 
 - title: "Bachelor's Degree in Computer Science"
   date: "2018 - 2023"
