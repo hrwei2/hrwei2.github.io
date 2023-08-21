@@ -1,16 +1,22 @@
-<h1>timeline</h1>
-<ul class="timeline">
-    {% for period in site.data.timeline %}
-    <li class="timeline-item">
-        <div class="timeline-content">
-            <div class="timeline-date">{{ period.date }}</div>
-            {% for item in period.items %}
-            <div class="timeline-event {% if item.type == 'job' %}job-event{% else %}normal-event{% endif %}">
-                <h3>{{ item.title }}</h3>
-                <p>{{ item.description }}</p>
+<section id="cd-timeline" class="cd-container">
+    {% for entry in site.data.timeline %}
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture"></div>
+            <div class="cd-timeline-content">
+                <h2>{{ entry.title }}</h2>
+                <div class="timeline-content-info">
+                    <span class="timeline-content-info-date">
+                        <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                        {{ entry.date }}
+                    </span>
+                </div>
+                <p>{{ entry.items[0].description }}</p>
+                <ul >
+                    {% for skill in entry.items[0].skills %}
+                        <li>{{ skill }}</li>
+                    {% endfor %}
+                </ul>
             </div>
-            {% endfor %}
         </div>
-    </li>
     {% endfor %}
-</ul>
+</section>

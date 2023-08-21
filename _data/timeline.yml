@@ -1,26 +1,61 @@
 # example:
-# - date: "2023 - Present"
+# - title: "Penta Consulting"
+#   date: "June 2016 - Present"
 #   items:
-#     - type: "job"
-#       title: "Job 1"
-#       description: "Job description and details for Job 1."
+#     - type: "Front End Developer"
+#       title: "Front End Developer"
+#       description: "Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities."
+#       skills:
+#         - "HTML5"
+#         - "CSS3"
+#         - "JavaScript"
+#         - "jQuery"
+#         - "Wordpress"
 
-#     - type: "event"
-#       title: "Event 1"
-#       description: "Event description and details for Event 1."
-
-# - date: "2022 - 2023"
+# - title: "Title of section 2"
+#   date: "Jan 18"
 #   items:
-#     - type: "job"
-#       title: "Job 2"
-#       description: "Job description and details for Job 2."
+#     - type: "Event"
+#       title: "Event Title"
+#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?"
+
+# - title: "Title of section 3"
+#   date: "Jan 24"
+#   items:
+#     - type: "Event"
+#       title: "Event Title"
+#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci."
+
+# - title: "Title of section 4"
+#   date: "Feb 14"
+#   items:
+#     - type: "Event"
+#       title: "Event Title"
+#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut."
+
+# - title: "Title of section 5"
+#   date: "Feb 18"
+#   items:
+#     - type: "Event"
+#       title: "Event Title"
+#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum."
+
+# - title: "Final Section"
+#   date: "Feb 26"
+#   items:
+#     - type: "Event"
+#       title: "Event Title"
+#       description: "This is the content of the last section"
 #--------------------------------------------------------------
-- date: "2022"
+- title: "Software Developer at Webb Electronics"
+  date: "2022"
   items:
     - type: "job"
       title: "Software Developer"
       description: "Developed software at Webb Electronics"
-- date: "2018 - 2023"
+
+- title: "Bachelor's Degree in Computer Science"
+  date: "2018 - 2023"
   items:
     - type: "Event"
       title: "Bachelor's Degree in Computer Science"

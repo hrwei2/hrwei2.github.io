@@ -1,7 +1,3 @@
--logo looks squished and narrow
--your slogan should not all be lowercase or that font PERSONALLY. better if you move it to the right side 
--photos should be larger, either 40 or 50
--words need to be less wordy but i can help with that
+
 -change titles (Kayden has suggestions)
--why is there a drop down menu when you zoom in 400% but that's not available on mobile interface LMAO
 -don't make homepage the same as your projects page, maybe have homepage as an overview so add more to the timeline ie projects
