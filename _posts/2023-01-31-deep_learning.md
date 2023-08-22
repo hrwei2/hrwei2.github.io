@@ -1,5 +1,6 @@
 ---
-title: "Image Classification"
+title: "deep learning"
+title_post: "Computer Vision Course Project: 'Deep Learning by PyTorch' - Scored 93%"
 date: 2023-01-31
 urls:
   - name: Project Full Description
@@ -8,7 +9,7 @@ urls:
     url: "https://github.com/hrwei2/Computer_vision/blob/main/Project2/cmpt%20412%20project%202%20report.pdf"
   - name: Project Code Base
     url: "https://github.com/hrwei2/Computer_vision/tree/main/Project2/project2_package"
-image: /assets/images/image_clasification.png
+image: /assets/images/deep_learning.png
 
 ---
 

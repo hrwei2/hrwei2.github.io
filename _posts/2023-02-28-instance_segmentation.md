@@ -1,5 +1,6 @@
 ---
-title: "Instance Segmentation"
+title: "Instance segmentation"
+title_post: "Computer Vision Course Project: 'Object Detection, Semantic Segmentation, and Instance Segmentation' - Scored 97%"
 date: 2023-02-28
 urls:
   - name: Project Full Description
