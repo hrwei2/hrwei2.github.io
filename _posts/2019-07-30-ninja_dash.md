@@ -1,5 +1,6 @@
 ---
 title: "Ninja Dash"
+title_post: "Ninja Dash"
 date: 2019-07-30
 urls:
   - name: Project Report
