@@ -1,7 +1,7 @@
 ---
 title: "digit recognition"
 title_post: "Computer Vision Course Project: 'Digit recognition with convolutional neural networks' - Scored 93%"
-date: 2023-01-31
+date: 2023-01-17
 urls:
   - name: Project Full Description
     url: "https://github.com/hrwei2/Computer_vision/blob/main/Project1/project1.pdf"
