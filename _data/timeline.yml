@@ -47,11 +47,11 @@
 #       title: "Event Title"
 #       description: "This is the content of the last section"
 #--------------------------------------------------------------
-- title: "Software Developer / Trainer at Code Ninjas"
+- title: "Head Sensei (Head instructor) at Code Ninjas"
   date: "2023 - present"
   items:
     - type: "job"
-      title: "Software Developer / Trainer"
+      title: "Head Sensei (Head instructor)"
       description: "Teaching coding to kids through engaging lessons, helping them grasp programming languages and problem-solving concepts. While mentor students, guide them through coding projects, and maintain a positive learning environment. Monitor progress, communicate with parents, and stay updated on coding trends to provide effective instruction."
       skills:
         - "Scratch"
