@@ -52,7 +52,8 @@
   items:
     - type: "job"
       title: "Tutor"
-      description: "Teaching stem subjects to the future generation. Custom teaching meathods to meet the student's best learning meathod."
+      description: "
+Igniting a passion for the future by imparting STEM knowledge to the next generation. Employing tailored teaching methods crafted to match each student's unique learning style for an engaging and personalized educational experience."
       skills:
         - "Flask"
         - "JavaScript"
