@@ -47,6 +47,25 @@
 #       title: "Event Title"
 #       description: "This is the content of the last section"
 #--------------------------------------------------------------
+- title: "Tutor at World Vision Academy"
+  date: "2023 - present"
+  items:
+    - type: "job"
+      title: "Tutor"
+      description: "Teaching stem subjects to the future generation. Custom teaching meathods to meet the student's best learning meathod."
+      skills:
+        - "Flask"
+        - "JavaScript"
+        - "Python"
+        - "Pactience"
+        - "Communication"
+        - "Adaptability"
+        - "Creativity"
+        - "Problem-Solving"
+        - "Software Development Life Cycle"
+        - "Time Management"
+        - "Public Speaking"
+
 - title: "Head Sensei (Head instructor) at Code Ninjas"
   date: "2023 - present"
   items:
