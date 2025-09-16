@@ -1,3 +1,16 @@
 
--change titles (Kayden has suggestions)
--don't make homepage the same as your projects page, maybe have homepage as an overview so add more to the timeline ie projects
+Add a section for recent news or updates about yourself
+Create a dedicated "About Me" page with more details and photos
+Add a contact form or email link for visitors to reach you
+Improve mobile responsiveness and test on different devices
+Optimize images for faster loading
+Add links to your social media profiles
+Include downloadable resume/CV
+Add a blog or posts section for sharing thoughts or updates
+Enhance accessibility (alt text for images, proper headings)
+Set up Google Analytics or similar for visitor tracking
+Add project tags/categories for easier navigation
+Improve site SEO (meta tags, descriptions)
+Add testimonials or references if relevant
+Create a dark mode/light mode toggle
+Regularly update timeline and project details
